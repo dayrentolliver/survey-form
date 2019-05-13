@@ -24,7 +24,8 @@ Dayren Tolliver
 ### Things I learned:
 * How to create a form
 * How to require specific fields
-* How to create an age range
 * How to perform email validation
+* How to create an age range
 * How to create checkboxes, radio buttons and textareas
+* How to pre-check specific checkboxes
 * How to create a Submit button
