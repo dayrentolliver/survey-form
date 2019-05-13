@@ -1,0 +1,86 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <div id="main">
+        <title>Volunteer Survey Form</title>
+    </head>
+    
+    <h1 id="title">Volunteer Survey Form</h1>
+    <p id="description">Tell us about yourself and your availability.</p>
+    <body>
+        <form id="survey-form">
+            
+            <div>
+                <label id="name-label" for="name">
+                    <p>Name: <input type="text" name="fullname" id="name" placeholder="Enter first and last name." class="namebox" required/></p>
+                </label>
+            </div>
+            
+            <div>
+                <label id="email-label" for="email">
+                    <p>Email Address:<input type="email" name="emailaddress" id="email" placeholder="Enter email address." class="emailbox" required/></p>
+                </label>
+            </div>
+            
+            <div>
+                <label id="number-label" for="age">
+                    <p>Age: <input type="number" name="quantity" min="18" max="100" id="number" placeholder="Enter age." class="agebox"/></p>
+                </label>
+            </div>
+            
+             <div>
+                <label id="source">
+                    <p>How did you hear about our non-profit?</p>
+                        <ul>
+                            <li><input type="radio" value="1" name="source"/><label>Friend/Family</label></li>
+                            <li><input type="radio" value="2" name="source"/><label>Our Website</label></li>
+                            <li><input type="radio" value="3" name="source"/><label>Other</label></li>
+                        </ul>
+            </div>
+            
+            <div>
+                <p>What project(s) are you interested in?<p>
+                    <ul>
+                        <li><input type="checkbox" value="1" name="projects"/><label>Food Bank</label></li>
+                        <li><input type="checkbox" value="2" name="projects"/><label>Teach Computer Literacy</label></li>
+                        <li><input type="checkbox" value="3" name="projects"/><label>Other</label></li>
+                    </ul>
+            </div>
+            
+            <div>
+                <p>What days are you available to volunteer?</p>
+                <ul>
+                    <li><input type="checkbox" value="1" name="days"/><label>Fridays</label></li>
+                    <li><input type="checkbox" value="2" name="days"/><label>Saturdays</label></li>
+                    <li><input type="checkbox" value="3" name="days"/><label>Sundays</label></li>
+                </ul>
+            </div>
+            
+            <div>
+                <label id="dropdown" for="contact">
+                    <p>What is your preferred method of contact?</p>
+                    <select id="dropdown">
+                        <option value="Phone">Phone</option>
+                        <option value="Email">Email</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div>
+                <p>Is there anything else you would like to tell us about yourself?<br>
+                    <textarea name="info" placeholder="Tell us here!"/></textarea> 
+                </p>
+            </div>
+            
+            <div>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+    </div>
+<footer><small>Dayren Tolliver &copy; 2019</small></footer>
+</html>
