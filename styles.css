@@ -39,8 +39,12 @@ ul{
     
 }
 
-#name{
+#first-name{
     
+}
+
+#last-name{
+
 }
 
 #email{
@@ -51,11 +55,13 @@ ul{
     
 }
 
-#name-label{
+#first-name-label{
     
 }
 
-
+#last-name-label{
+    
+}
 
 #email-label{
     
