@@ -15,7 +15,7 @@ Dayren Tolliver
 3. Enter your email address
 4. Enter your age (between 18 - 100 years old)
 5. Tell us how you heard about our non-profit
-6. Select one or multiple projects that you are interested in
+6. Select one or more projects that you are interested in
 7. Select one or more days that you are able to volunteer
 8. Select your preferred method of contact
 9. Optionally, tell us more about yourself
