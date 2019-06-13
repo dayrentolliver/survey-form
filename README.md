@@ -32,3 +32,5 @@ Dayren Tolliver
 
 ### Future Features
 * Incorporate JavaScript to require that the questions: 'What project(s) are you interested in?' and 'What days are you available to volunteer?' are checked before being able to submit
+* Add warning message before submit
+* Add 'Your response has been recorded' page/message
