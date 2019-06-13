@@ -29,3 +29,6 @@ Dayren Tolliver
 * How to create checkboxes, radio buttons and textareas
 * How to pre-check specific checkboxes
 * How to create a Submit button
+
+### Future Features
+* Incorporate JavaScript to require that the questions: 'What project(s) are you interested in?' and 'What days are you available to volunteer?' are checked before being able to submit
