@@ -1,24 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body{
     background-color: #A2D253;
     font-family: 'Ubuntu', sans-serif;
 }
+
 #main{
     background-color: white;
     text-align: center;
-    padding: 10px 20px;
-    margin: 10px 200px;
+    margin: auto;
+    width: 72%;
+    padding-top:5%;
+    padding-bottom: 5%;
 }
 
 #title{
     text-align: center;
+    text-decoration: underline;
 }
 
 #description{
     text-align: center;
-}
-
-#survey-form{
-    
 }
 
 .namebox{
@@ -36,47 +40,13 @@ html, body{
 
 ul{
     list-style-type: none;
-    
-}
-
-#first-name{
-    
-}
-
-#last-name{
-
-}
-
-#email{
-    
-}
-
-#number{
-    
-}
-
-#first-name-label{
-    
-}
-
-#last-name-label{
-    
-}
-
-#email-label{
-    
-}
-
-#number-label{
-    
-}
-
-#dropdown{
-    
 }
 
 #submit{
     background-color: #A2D253;
+    color: white;
+    width: 150px;
+    height: 50px;
 }
 
 footer{
@@ -84,4 +54,13 @@ footer{
     background-color: white;
     padding: 10px 20px;
     margin: 10px 200px;
+}
+
+button { 
+    border: 1px solid black;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
