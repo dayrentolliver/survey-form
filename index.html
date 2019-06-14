@@ -22,29 +22,34 @@
     <h1 id="title">Volunteer Survey Form</h1>
     <p id="description">Tell us about yourself and your availability.</p>
     <body>
-        <form>
-            
+        <form>    
             <div>
                 <label for="firstname">
-                    <p>First Name*: <input type="text" name="firstname" placeholder="Enter first name." class="namebox" required/></p>
+                    <p>First Name*: <input type="text" name="firstname" placeholder="Enter first name." class="name-box" required/></p>
                 </label>
             </div>
 
             <div>
                 <label for="lastname">
-                    <p>Last Name*: <input type="text" name="lastname" placeholder="Enter last name." class="namebox" required/></p>
+                    <p>Last Name*: <input type="text" name="lastname" placeholder="Enter last name." class="name-box" required/></p>
                 </label>
             </div>
+
+            <div>
+                    <label for="phone">
+                     <p>Phone Number*: <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></p>
+                    </label>
+                </div>
             
             <div>
                 <label for="email">
-                    <p>Email Address*:<input type="email" name="emailaddress" placeholder="Enter email address." class="emailbox" required/></p>
+                    <p>Email Address*:<input type="email" name="emailaddress" placeholder="Enter email address." class="email-box" required/></p>
                 </label>
             </div>
             
             <div>
                 <label for="age">
-                    <p>Age*: <input type="number" name="quantity" min="18" max="100" placeholder="Enter age." class="agebox" required/></p>
+                    <p>Age*: <input type="number" name="quantity" min="18" max="100" placeholder="Enter age." class="age-box" required/></p>
                 </label>
             </div>
             
@@ -95,10 +100,10 @@
             </div>
             
             <div>
-                <button type="submit" id="submit"><a href="#">Submit</a></button>
+                <button type="submit" id="submit">Submit</button>
             </div>
         </form>
     </body>
-    </div>
+    </div> <br/>
 <footer><small>Dayren Tolliver &copy; 2019</small></footer>
 </html>

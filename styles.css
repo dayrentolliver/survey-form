@@ -12,7 +12,7 @@ html, body{
     text-align: center;
     margin: auto;
     width: 72%;
-    padding-top:5%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -25,15 +25,15 @@ html, body{
     text-align: center;
 }
 
-.namebox{
+.name-box{
     width: 175px;
     margin-left: 5px;
 }
-.emailbox{
+.email-box{
     width:200px;
     margin-left: 5px;
 }
-.agebox{
+.age-box{
     width:75px;
     margin-left: 5px;
 }
@@ -52,13 +52,18 @@ ul{
 footer{
     text-align: center;
     background-color: white;
-    padding: 10px 20px;
-    margin: 10px 200px;
+    padding: auto;
+    margin: auto;
+    width: 72%;
 }
 
 button { 
     border: 1px solid black;
     font-size: 16px;
+}
+
+#submit:hover{
+    background-color:#77aa23;
 }
 a {
     text-decoration: none;
