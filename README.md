@@ -12,7 +12,7 @@ Dayren Tolliver
 ### How it works:
 1. Open the survey form: https://dayrentolliver.github.io/survey-form/
 2. Enter your first and last name
-3. Enter your email address
+3. Enter your phone number and email address
 4. Enter your age (between 18 - 100 years old)
 5. Tell us how you heard about our non-profit
 6. Select one or more projects that you are interested in
