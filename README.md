@@ -1,6 +1,6 @@
 # survey-form
 Completed the 'Survey Form' project for a freeCodeCamp assignment.
-View site here:  https://dayrentolliver.github.io/survey-form/
+View site here: https://dayrentolliver.com/survey-form/
 
 ### Author(s):
 Dayren Tolliver
@@ -10,7 +10,7 @@ Dayren Tolliver
 * CSS
 
 ### How it works:
-1. Open the survey form: https://dayrentolliver.github.io/survey-form/
+1. Open the survey form: https://dayrentolliver.com/survey-form/
 2. Enter your first and last name
 3. Enter your phone number and email address
 4. Enter your age (between 18 - 100 years old)
